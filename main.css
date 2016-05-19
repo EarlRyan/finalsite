@@ -1,0 +1,82 @@
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 34px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h1,
+h2,
+p,
+footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
+}
+
+body {
+    text-align: center;
+    background-image: url(images/grit.jpg);
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    border-radius: 40px;
+}
+
+li {
+    float: center;
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 500px;
+    margin-right: 500px;
+}
